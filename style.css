@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* APPLIED TO ALL OF */
+html {
+    font-size: 1rem;
+}
+
+/* section {
+    border: 1px solid black;
+} */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* HEADER */
+.headerlist li {
+    display: inline-block;
+    margin-left: 3.5%;
+    margin-right: 2.5%;
+}
+
+.headerlist li button {
+    background-color: rgb(51, 57, 66);
+    color: white;
+    padding: 15% 100%;
+}
+
+.headerlist li a {
+    color: rgb(101, 99, 101);
+}
+
+/* SECTION ONE */
+.oneleft {
+    width: 50%;
+    float: left;
+    background-color: rgb(241, 243, 245);
+    text-align: center;
+    padding: 3% 4%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.onemid p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 5% 0%;
+}
+
+.onebottom form label {
+    font-size: .80rem;
+}
+
+.email1 {
+    width: 65%;
+    float: left;
+    margin: 0% 1% 0% 3%;
+}
+
+.onebottom button {
+    background-color: rgb(184, 197, 207);
+    color: white;
+    border: .5px solid rgb(137, 150, 158);
+    width: 27%;
+}
+
+.oneright {
+    background-color: rgb(241, 243, 245);
+    width: 50%;
+    float: left;
+    padding-top: 6.5%
+}
+
+.womanlogo {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION TWO */
+
+.two {
+    display: inline-block;
+    text-align: center;
+    padding: 0% 10% 5% 10%;
+}
+
+.twotop {
+    float: left;
+}
+
+.twomid {
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+}
+
+.twomidleft {
+    width: 50%;
+    float: left;
+
+}
+
+.twomidleft span {
+    border-top: 3px solid pink;
+}
+
+.twomidright {
+
+    width: 50%;
+    float: left;
+
+}
+
+.twomidright span {
+    border-top: 3px solid pink;
+}
+
+.twobottom p {
+    color: rgb(184, 197, 207);
+    font-style: italic;
+}
+
+/* SECTION THREE */
+
+.threeleft {
+    background-color: rgb(241, 243, 245);
+    width: 60%;
+    float: left;
+    padding: 3%;
+    line-height: 135%;
+}
+
+.threeright {
+    background-color: rgb(241, 243, 245);
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.photocaption {
+    text-align: center;
+}
+
+/* SECTION FOUR */
+.four {
+    display: inline-block;
+    text-align: center;
+}
+
+.fourtop {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fourmid {
+    display: inline-block;
+    padding: 5% 5% 5% 5%;
+    /* border: 1px solid rgba(154, 180, 194, 100%); */
+}
+
+.fourmidleft {
+    width: 35%;
+    float: left;
+}
+
+.fourmidleft img {
+    width: 90%;
+}
+
+.fourmidright {
+    width: 61%;
+    float: left;
+    margin: 0% 0% 4% 4%;
+    text-align: left;
+}
+
+.fourmidright span {
+    font-weight: bold;
+}
+
+/* SECTION FIVE */
+.five {
+    display: inline-block;
+}
+
+.fiveleft {
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+.fivelefttop {
+    font-size: 1.5rem;
+    color: darkgrey;
+    margin: 2% 0%;
+}
+
+.fiveright {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.fiverighttop img {
+    width: 27%;
+    filter: grayscale(100%);
+
+}
+
+/* SECTION SIX */
+.six {
+    background-color: rgb(184, 197, 208);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+.six label {
+    font-size: 1.3rem;
+    padding-right: 20%;
+}
+
+.six input {
+    font-size: 1.05rem;
+    width: 30%;
+    padding: .5% 0% .5% 1%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.six button {
+    width: 15%;
+    background-color: rgb(143, 156, 163);
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(143, 156, 163);
+    display: inline-block;
+}
+
+.footertop {
+    background-color: rgb(143, 156, 163);
+    width: 100%;
+    display: inline-block;
+    padding: 2% 5% 1% 5%;
+    border-bottom: 2px solid white;
+}
+
+.list0 {
+    width: 63%;
+    float: right;
+    margin: 0%;
+}
+
+.footernav {
+    display: inline;
+    margin-left: 5%;
+}
+
+.footernavlist {
+    color: white;
+}
+
+.footertopleft {
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.footertopright {
+    width: 50%;
+    float: left;
+}
+
+.footerbottom {
+    width: 100%;
+    display: inline;
+}
+
+.footerbottomleft {
+    width: 50%;
+    float: left;
+    display: inline;
+    padding: 1% 1% 0% 1%;
+    background-color: rgb(143, 156, 163);
+}
+
+.list {
+    width: 33%;
+    float: left;
+}
+
+.footerbottomright {
+    width: 50%;
+    float: left;
+    background-color: rgb(143, 156, 163);
+}
+
+.footersingles {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-bottom: 45.9%;
+}
+
+footer a {
+    color: white;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:0) {
+
+    html,
+    body {
+        min-width: fit-content;
+    }
+
+    .menu {
+        color: rgb(51, 57, 66);
+        font-size: 1.5rem;
+        float: right;
+    }
+
+    .oneleft {
+        width: 100%;
+    }
+
+    .oneright {
+        display: none;
+    }
+
+    .threeleft {
+        width: 100%;
+    }
+
+    .threeright {
+        display: none;
+    }
+
+    .fourmidleft {
+        width: 100%;
+    }
+
+    .fourmidright {
+        width: 100%;
+    }
+
+    .five {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .six label {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .six .email2 {
+        width: 100%;
+
+    }
+
+    .six button {
+        width: 40%;
+        margin-top: 2%;
+    }
+
+    .mobilebutton {
+        float: left;
+        background-color: rgb(51, 57, 66);
+        color: white;
+        /* padding: 15% 100%; */
+    }
+
+    .headerlist {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:767px) {
+    .threeright {
+        display: block;
+        width: 40%;
+    }
+
+    .threeleft {
+        width: 60%;
+    }
+
+    .fourmidleft img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .oneleft {
+        width: 50%;
+    }
+
+    .oneright {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .headerlist {
+        display: block;
+    }
+
+    .fourmidleft {
+        width: 35%;
+    }
+
+    .fourmidleft img {
+        width: 90%;
+    }
+
+    .fourmidright {
+        width: 61%;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .mobilebutton {
+        display: none;
+    }
+}
+
+/* @media screen and (min-width:1024px) {} */
